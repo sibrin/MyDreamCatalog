@@ -1,0 +1,7 @@
+<button (click)="get()">root</button>
+<button (click)="get(2)">childs</button>
+<ul>
+  <li *ngFor="let catalog of catalogs">
+    {{ catalog.id }} | {{ catalog.name }}
+  </li>
+</ul>
